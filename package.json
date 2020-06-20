@@ -1,0 +1,19 @@
+{
+  "name": "travailp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/note.scss:./css/note.css",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MARJAOUI/travailp4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MARJAOUI/travailp4/issues"
+  },
+  "homepage": "https://github.com/MARJAOUI/travailp4#readme"
+}

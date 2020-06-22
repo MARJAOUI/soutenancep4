@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('fonts/Kingthings_Petrock_light-webfont.eot');
+    src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kingthings_Petrock_light-webfont.woff2') format('woff2'),
+         url('fonts/Kingthings_Petrock_light-webfont.woff') format('woff'),
+         url('fonts/Kingthings_Petrock_light-webfont.ttf') format('truetype'),
+         url('fonts/Kingthings_Petrock_light-webfont.svg#kingthings_petrock_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
     padding: 0;
@@ -286,6 +297,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    font-family: 'kingthings_petrock_lightRg';
 }
 
 .navbar {
@@ -300,6 +312,8 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    float: left;
+    font-family: 'kingthings_petrock_lightRg';
 }
 
 .navbar-brand img {
@@ -439,7 +453,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 25px;                            /*   ajoute   */
+    font-size: 15px;                            /*   ajoute   */
 }
 
 .mg-lg {
@@ -679,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -712,13 +726,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1em !important ;                      /*  15px*/
+    font-size: 15px !important ;                      /*  15px*/
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
-.med-width-whitespace {
+.width-whitespacemed- {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
@@ -755,7 +769,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,11 +787,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F3976C;        /*    #F3976C    */
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;               /*   #F3976C   */
 }
 
 .btn-atomic-tangerine {
@@ -1051,6 +1065,8 @@ h4 {
 .avis{
     font-size: 20px;
     font-style: italic;
+    text-align: center;
+    color: #c27956 !important;                   /*   ajout    */
 }
 .client{
     font-size: 15px;
@@ -1068,15 +1084,28 @@ h4 {
 #size-descriptif-realisarions1,
 #size-descriptif-realisarions2,
 #size-descriptif-realisarions3{
-    font-size: 0.8em;
+    font-size: 15px;
 }
 .liste-footer-color{
     color: white !important;
 }
 .texture-paper-page2::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 .bg-banniere {
     filter: brightness(100%);                               
+}
+.white{
+    text-align: center;
+}
+#bloc-0 h1{
+    font-size: 35px;
+    font-family: 'kingthings_petrock_lightRg';
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .row{
+        text-align: center;
+    }
 }

@@ -295,10 +295,10 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
+/*#bloc-1-hero h1 {
+    font-size: 4em;
     font-family: 'kingthings_petrock_lightRg';
-}
+}*/
 
 .navbar {
     margin-bottom: 0;
@@ -308,7 +308,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -340,7 +340,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -453,7 +453,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 15px;                            /*   ajoute   */
+    font-size: 1.5em;                            /*   ajoute   */
 }
 
 .mg-lg {
@@ -492,11 +492,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 3em!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 5em!important;
 }
 
 .sm-shadow {
@@ -674,15 +674,15 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
+/*.hero-bloc-text {
     font-size: 38px;
-}
+}*/
 
-.hero-bloc-text-sub {
+/*.hero-bloc-text-sub {
     font-size: 36px;
-}
+}*/
 
-.statement-bloc-text {
+/*.statement-bloc-text {
     line-height: 26px;
     font-style: italic;
     font-size: 20px;
@@ -690,10 +690,10 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
+}*/
 
 p {
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 .tight-width-whitespace {
@@ -711,7 +711,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
@@ -721,12 +721,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.8em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px !important ;                      /*  15px*/
+    font-size: 1.4em !important ;                      /*  15px*/
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -1063,13 +1063,13 @@ h4 {
 
                                     /*       ajouté     */
 .avis{
-    font-size: 20px;
+    font-size: 1.5em;
     font-style: italic;
     text-align: center;
     color: #c27956 !important;                   /*   ajout    */
 }
 .client{
-    font-size: 15px;
+    font-size: 0.8em;
     font-style: normal;
 }
 #liens{
@@ -1099,8 +1099,8 @@ h4 {
 .white{
     text-align: center;
 }
-#bloc-0 h1{
-    font-size: 35px;
+#bloc-1-hero h1 {            /*  #bloc-0 h1*/
+    font-size: 3em;
     font-family: 'kingthings_petrock_lightRg';
     text-align: center;
 }
@@ -1110,7 +1110,16 @@ h4 {
     }
 }
 #titre-image-projets{
-    font-size: 16px;
+    font-size: 1.2em;
+    line-height: 17px;
     font-weight: 700 !important;
     color:black !important;
+}
+.hero-bloc-text{
+    font-size: 2.5em !important;
+    margin-top: 0;
+}
+.navbar-header h1{
+    font-family: 'kingthings_petrock_lightRg';
+    font-size: 2em;
 }

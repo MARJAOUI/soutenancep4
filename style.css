@@ -1109,3 +1109,8 @@ h4 {
         text-align: center;
     }
 }
+#titre-image-projets{
+    font-size: 15px;
+    font-weight: 700 !important;
+    color:black !important;
+}

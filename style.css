@@ -126,7 +126,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);     /*  rgba(255, 255, 255, .6)*/
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -142,10 +142,10 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255);               /*rgba(255, 255, 255, 1)*/
 }
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255);    
 }
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -212,6 +212,7 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
+
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -253,6 +254,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 20px;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -627,7 +629,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #050404!important;
     
 }
 
@@ -694,7 +696,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -711,7 +713,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 1);
+    background-color: rgb(70, 54, 9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1042,7 +1044,7 @@ h4 {
         text-align: center;
     }
 }
-#titre-image-projets{
+.titre-image-projets{
     font-size: 1.2em;
     line-height: 17px;
     font-weight: 700 !important;
@@ -1058,4 +1060,7 @@ h4 {
 }
 .couleur-titre{
     color: #F3976C !important;
+}
+.texte-titre{
+    color: transparent;
 }

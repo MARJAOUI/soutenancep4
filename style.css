@@ -1059,7 +1059,7 @@ h4 {
     font-size: 2em;
 }
 .couleur-titre{
-    color: #993e14 !important;
+    color: rgb(211, 123, 82) !important;                 /* #993e14  */
 }
 .texte-titre{
     color: transparent;
